@@ -1,4 +1,4 @@
-package DesafioJava;
+package BootCampJava.src.DesafioJava;
 
 import java.util.Scanner;
 
@@ -40,6 +40,7 @@ public class Desafio_de_Logica_3_2 {
                 + "|                Inventario da %s                |\n"
                 + "|________________________________________________________|\n", loja);
         System.out.printf("\nInforme a Categoria do Item a ser cadastrado conforme as categorias abaixo.");
+
         System.out.printf("\n(C) Cama, Mesa e Banho \n(E) Eletrodoméstico \n(V) Vestuario\n\nOpção: ");
         categoria = sc.next();
         System.out.print("\nInforme o Codigo desejado para o produto: ");
