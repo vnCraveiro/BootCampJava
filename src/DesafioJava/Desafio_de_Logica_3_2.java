@@ -29,30 +29,46 @@ public class Desafio_de_Logica_3_2 {
     public static void main(String[] args) {
         double precoUn, precoTot;
         int quantidadeUn, quantidadeTot, cod;
-        String categoria, descricao, loja;
+        String descricao, loja;
+        char categoria;
         Scanner sc = new Scanner(System.in);
 
         System.out.printf("Informe o nome da Loja: ");
         loja = sc.nextLine();
         System.out.printf(""
                 + " ________________________________________________________\n"
-                + "|                                                        |\n"
-                + "|                Inventario da %s                |\n"
-                + "|________________________________________________________|\n", loja);
-        System.out.printf("\nInforme a Categoria do Item a ser cadastrado conforme as categorias abaixo.");
-
-        System.out.printf("\n(C) Cama, Mesa e Banho \n(E) Eletrodoméstico \n(V) Vestuario\n\nOpção: ");
-        categoria = sc.next();
-        System.out.print("\nInforme o Codigo desejado para o produto: ");
+                + "                                                        \n"
+                + "                Inventario da %s                \n"
+                + "_________________________________________________________\n", loja);
+        System.out.print("\nInforme a Categoria do Item a ser cadastrado conforme as categorias abaixo.");
+        System.out.print("\n(C) Cama, Mesa e Banho \n(E) Eletrodoméstico \n(V) Vestuario\n\nOpção: ");
+        categoria = sc.next().charAt(0);
+        categoria = Character.toUpperCase(categoria);
+        if (categoria == 'C') {
+            System.out.print("Voce informou a categoria (C) Cama, Mesa e Banho");
+            }
+            else if (categoria == 'E'){
+                System.out.print("Voce informou a categoria (E) Eletrodoméstico");
+                }
+                else if (categoria == 'V'){
+                    System.out.print("Voce informou a categoria (V) Vestuario");
+                    }
+                else {
+                   System.out.print("\nVoce digitou uma categoria invalida!, Digite uma categoria valida\n(C) Cama, Mesa e Banho \n(E) Eletrodoméstico \n(V) Vestuario\n\nOpção:");
+                   categoria = sc.next().charAt(0);
+                   categoria = Character.toUpperCase(categoria);
+                    }
+        System.out.println("\nInforme o Codigo desejado para o produto: ");
         cod = sc.nextInt();
-        System.out.printf("\nInforme o Nome do produto: ");
-        descricao = sc.nextLine();//VERIFICAR OQUE COLOCAR NA STRING QUE ACATE TODAS AS INFORMACOES DIGITADAS.
-        System.out.printf("\nInforme a Quatidade do item %s que possui em estoque: ", descricao);
+        System.out.print("\nInforme o Nome do produto: ");
+        descricao = sc.next();//AO PASSA ESSA FUNÇAO, ELA PULA DIRETO PARA A OUTRA LINHA E NAO DEIXA ESCREVER.
+        System.out.printf("\n\nInforme a Quatidade do item %s que possui em estoque: ", descricao);
+        sc.nextLine();
         quantidadeUn = sc.nextInt();
-        System.out.printf("\nInforme o preço unitario do item R$: ");
+        System.out.println("\nInforme o preço unitario do item R$: ");
         precoUn = sc.nextDouble();
 
-        System.out.print("\n| CODIGO |             NOME             | QTD UN | PRECO R$ |");
+        System.out.println("\n| CODIGO |             NOME             | QTD UN | PRECO R$ |");
         System.out.printf("\n| %d | %s   | %d | %.2f |", cod, descricao, quantidadeUn, precoUn);
 
 
