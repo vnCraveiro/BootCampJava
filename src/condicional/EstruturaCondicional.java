@@ -1,4 +1,4 @@
-package BootCampJava.src.condicional;
+package condicional;
 
 import java.util.Scanner;
 
