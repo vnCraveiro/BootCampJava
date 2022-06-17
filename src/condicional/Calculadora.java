@@ -22,13 +22,23 @@ public class Calculadora {
 
         switch (opcao){
             case 1:
-                System.out.printf("%f + %f = %f"num1,num2,num1+num2);
+                System.out.print("Sua operação é:\n");
+                System.out.printf("%f + %f = %f",num1,num2,num1+num2);
                 break;
             case 2:
-                System.out.printf("%f - %f = %f"num1,num2,num1-num2);
+                System.out.print("Sua operação é:\n");
+                System.out.printf("%f - %f = %f",num1,num2,num1-num2);
                 break;
             case 3:
-
+                System.out.print("Sua operação é:\n");
+                System.out.printf("%f * %f = %f",num1,num2,num1*num2);
+                break;
+            case 4:
+                System.out.print("Sua operação é:\n");
+                System.out.printf("%f / %f = %f",num1,num2,num1/num2);
+                break;
+            default:
+                System.out.print("Opção inválida !.");
         }
 
         sc.close();
