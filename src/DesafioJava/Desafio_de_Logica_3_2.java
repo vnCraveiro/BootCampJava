@@ -119,7 +119,7 @@ public class Desafio_de_Logica_3_2 {
                         totalizadorE = precoTotalE*quantidadeTotalE; //MULTIPLICA O PRECO PELA QUANTIDADE
                         custoE = precoUn * 0.4314; //ALIQUOTA DE IMPOSTO DE 43,14%
                         valorE = precoUn + custoE * 1.35; //LUCRO DE 35%
-                        System.out.printf("\nPreço sugerido por UND com lucro de 30%% é de R$: %.2f",valorE);
+                        System.out.printf("\nPreço sugerido por UND com lucro de 35%% é de R$: %.2f",valorE);
                         System.out.printf("\nValor do imposto cobrado por UND R$: %.2f\n",custoE);
                         break;
 
@@ -150,9 +150,9 @@ public class Desafio_de_Logica_3_2 {
                         quantidadeTotalV = quantidadeTotalV + quantidade;
                         precoTotalV = precoTotalV + precoUn;
                         totalizadorV = precoTotalV*quantidadeTotalV; //MULTIPLICA O PRECO PELA QUANTIDADE
-                        custoV = precoUn * 0.4314; //ALIQUOTA DE IMPOSTO DE 43,14%
-                        valorV = precoUn + custoV * 1.35; //LUCRO DE 35%
-                        System.out.printf("\nPreço sugerido por UND com lucro de 30%% é de R$: %.2f",valorV);
+                        custoV = precoUn * 0.3842; //ALIQUOTA DE IMPOSTO DE 38,42%
+                        valorV = precoUn + custoV * 1.50; //LUCRO DE 50%
+                        System.out.printf("\nPreço sugerido por UND com lucro de 50%% é de R$: %.2f",valorV);
                         System.out.printf("\nValor do imposto cobrado por UND R$: %.2f\n",custoV);
                         break;
 
