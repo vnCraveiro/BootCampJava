@@ -28,13 +28,13 @@ public class Desafio_de_Logica_3_2 {
 
     public static void main(String[] args) {
         double precoUn;
-        double valorC = 0, valorE = 0, valorV = 0, valorTot = 0;
-        double custoC = 0, custoE = 0, custoV = 0, custoTot = 0;
-        int quantidade, quantidadeTot = 0, quantC = 0, quantE = 0, quantV = 0;
+        double valorC = 0, valorE = 0, valorV = 0;
+        double custoC = 0, custoE = 0, custoV = 0;
+        int quantidade, quantC = 0, quantE = 0, quantV = 0;
         int quantidadeTotalC = 0, quantidadeTotalE = 0, quantidadeTotalV = 0;
         double precoTotalC = 0, precoTotalE = 0, precoTotalV = 0;
         double totalizadorC = 0, totalizadorE = 0, totalizadorV = 0;
-        String descricao, loja, cod;
+        String descricao, loja;
         boolean continuar = true;
         char categoria = ' ';
         Scanner sc = new Scanner(System.in);
