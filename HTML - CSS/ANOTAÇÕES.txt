@@ -1,0 +1,14 @@
+"TAGS"
+<div> </div> - 
+<header> </header> - usado para colocar um cabeçalho na pagina
+<main> </main> - localizado dentro da tag <body>, é a tag principal
+<footer> </footer> - usado para colocar o rodapé na pagina.
+<p> </p> - usado para colocar grande quantidade de textos, paragrafo;
+
+
+"CSS"
+<style> </style> - abrir dentro do html depois da tag </head>, serve para estilizar o site
+div {
+width: 200px;
+height: 50px; 
+}
