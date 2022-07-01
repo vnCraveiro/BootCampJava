@@ -33,4 +33,10 @@ public class Triangulo {
     public double area(){
         return Math.sqrt(perimetro()*(perimetro()-x)*(perimetro()-y)*(perimetro()-z));
     }
+
+    public String toString(){
+       return   "\nOs lados de "+x+", "+y+" e "+z+" formam um triângulo "+classificar()+".\n"+"" +
+                "\nO perimetro do triângulo é "+String.format("%.2f", perimetro())+"."+"" +
+                "\nA área desse triângulo é "+String.format("%.2f",area())+".\n";
+    }
 }

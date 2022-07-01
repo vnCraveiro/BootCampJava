@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51247bb1-86ca-4d3b-8ef8-b149f9c7407e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/geometria/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HTML - CSS/Aula_5/Exc8_QuintaAula.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HTML - CSS/Aula_5/Exc8_QuintaAula.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPOO/geometria/Triangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPOO/geometria/Triangulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPOO/triangulo/TrianguloExec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPOO/triangulo/TrianguloExec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geometria/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geometria/Triangulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/triangulo/TrianguloExec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/triangulo/TrianguloExec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -90,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
