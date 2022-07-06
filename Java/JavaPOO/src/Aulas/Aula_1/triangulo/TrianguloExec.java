@@ -1,11 +1,13 @@
-package triangulo;
+package JavaPOO.src.Aulas.Aula_1.triangulo;
 
-import geometria.Triangulo;
+import JavaPOO.src.Aulas.Aula_1.geometria.Triangulo;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class TrianguloExec {
     public static void main(String[] args) {
+        Locale.setDefault(new Locale("pt", "BR"));
         Scanner sc = new Scanner(System.in);
         Triangulo a = new Triangulo();
         Triangulo b = new Triangulo();

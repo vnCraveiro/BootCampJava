@@ -1,4 +1,4 @@
-package geometria;
+package JavaPOO.src.Aulas.Aula_1.geometria;
 
 public class Triangulo {
     public double x;
