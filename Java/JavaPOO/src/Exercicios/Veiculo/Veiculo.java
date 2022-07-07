@@ -1,11 +1,9 @@
-package JavaPOO.src.Exercicios.Veiculo;
+package Exercicios.Veiculo;
 
 public class Veiculo {
         private double capacidadeCombustivel;
         private int passageiro;
         private double consumo;
-        //
-
 
         public Veiculo(int p, double ca, double co){
              passageiro = p;
@@ -14,8 +12,11 @@ public class Veiculo {
         }
 
         public double tanqueViagem(double quilometro){
-
                 return quilometro/(consumo*capacidadeCombustivel);
+        }
+
+        public double dividirDespesas(double quilometro, double combustivel){
+                return (quilometro/capacidadeCombustivel*combustivel)/passageiro;
         }
 
         public double getCapacidadeCombustivel() {
@@ -40,5 +41,12 @@ public class Veiculo {
 
         public void setConsumo(double consumo) {
                 this.consumo = consumo;
+        }
+
+        @Override
+        public String toString() {
+                return "\nO Veículo comporta "+passageiro+" passageiros." +
+                        "\nTem capacidade de "+capacidadeCombustivel+" litros de combustível" +
+                        "\nConsumo de "+consumo+" quilometros por litro.\n";
         }
 }
