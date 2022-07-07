@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59ad202-37bc-4ddc-9159-bdbd24cb8f7d" name="Changes" comment="Tudo os arquivos">
-      <change afterPath="$PROJECT_DIR$/Java/JavaPOO/src/Exercicios/Veiculo/CalculoDespesaPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/JavaPOO/src/Veiculo/CalculoDespesa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/JavaPOO/src/Veiculo/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/JavaPOO/src/Exercicios/Veiculo/Veiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/JavaPOO/src/geometria/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/JavaPOO/src/Aulas/Aula_1/geometria/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/JavaPOO/src/triangulo/TrianguloExec.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/JavaPOO/src/Aulas/Aula_1/triangulo/TrianguloExec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/JavaPOO/JavaPOO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/JavaPOO/JavaPOO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/JavaPOO/src/Exercicios/Veiculo/CalculoDespesaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/JavaPOO/src/Exercicios/Veiculo/CalculoDespesaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/JavaPOO/src/Exercicios/Veiculo/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/JavaPOO/src/Exercicios/Veiculo/Veiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +33,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Workspace/BootCampJava/Java/JavaPOO/src/Aulas",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/BootCampJava/Java/JavaPOO/src/Aulas&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="JavaPOO.src.Exercicios" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculoDespesaPrincipal">
+  <component name="RunManager" selected="Application.Exercicios.Veiculo.CalculoDespesaPrincipal">
     <configuration name="CalculoDespesaPrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaPOO.src.Exercicios.Veiculo.CalculoDespesaPrincipal" />
       <module name="BootCampJava" />
@@ -66,12 +64,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercicios.Veiculo.CalculoDespesaPrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicios.Veiculo.CalculoDespesaPrincipal" />
+      <module name="JavaPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicios.Veiculo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaPOO.src.Aulas.Aula_1.triangulo.TrianguloExec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaPOO.src.Aulas.Aula_1.triangulo.TrianguloExec" />
       <module name="BootCampJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaPOO.src.Aulas.Aula_1.triangulo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaPOO.src.Exercicios.Veiculo.CalculoDespesaPrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPOO.src.Exercicios.Veiculo.CalculoDespesaPrincipal" />
+      <module name="JavaPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaPOO.src.Exercicios.Veiculo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,6 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicios.Veiculo.CalculoDespesaPrincipal" />
+        <item itemvalue="Application.JavaPOO.src.Exercicios.Veiculo.CalculoDespesaPrincipal" />
         <item itemvalue="Application.CalculoDespesaPrincipal" />
         <item itemvalue="Application.JavaPOO.src.Aulas.Aula_1.triangulo.TrianguloExec" />
         <item itemvalue="Application.TrianguloExec" />
