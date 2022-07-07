@@ -1,4 +1,4 @@
-package Exercicios.Veiculo;
+package JavaPOO.src.Aulas.Aula_1.Exercicios.Veiculo;
 
 import java.util.Scanner;
 
