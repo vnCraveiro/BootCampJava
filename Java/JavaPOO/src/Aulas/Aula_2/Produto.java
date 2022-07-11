@@ -26,6 +26,7 @@ public class Produto {
     }
 
     public double valorEstoque(){
+
         return (valorUnitario+valorImposto())*quantidade;
     }
 }
