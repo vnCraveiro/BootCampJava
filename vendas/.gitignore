@@ -1,11 +1,3 @@
-Java/JavaLogica/out
-Java/JavaPOO/out
-.idea/
-.idea
-out/
-out
-.idea/workspace.xml
-
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
